@@ -184,8 +184,6 @@ void procesar_cola_espera(GestorArchivos *ga, int indice_archivo)
 
     // Intentar conceder acceso al primero en cola
     // (Simplificado: solo procesamos uno a la vez)
-    int pid_esperando = archivo->cola_espera[0];
-
     // Eliminar de la cola
     for (int i = 0; i < archivo->num_esperando - 1; i++)
     {

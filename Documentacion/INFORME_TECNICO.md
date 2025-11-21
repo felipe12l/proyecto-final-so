@@ -626,58 +626,6 @@ Cubren el espectro de necesidades en sistemas reales.
 
 ---
 
-## 6. Limitaciones y Trabajo Futuro
-
-### 6.1 Limitaciones Actuales
-
-1. **No hay hilos (threads)**
-
-   - Solo procesos completos
-   - No hay compartición de memoria
-
-2. **Sincronización simplificada**
-
-   - Solo bloqueos lectores-escritores
-   - No hay semáforos generales ni monitores
-
-3. **E/S simplificada**
-
-   - Archivos simulados, no hay disco real
-   - No hay dispositivos de E/S variados
-
-4. **Sin multiprocesadores**
-
-   - Un solo CPU
-   - No hay paralelismo real
-
-5. **Interfaz textual**
-   - No hay visualización gráfica
-   - Limitada interacción durante ejecución
-
-### 6.2 Posibles Mejoras Futuras
-
-#### Corto Plazo
-
-- [ ] Agregar algoritmo de planificación MLFQ (Multi-Level Feedback Queue)
-- [ ] Implementar algoritmo de reemplazo Clock (Second Chance)
-- [ ] Añadir soporte para archivos compartidos entre procesos
-- [ ] Mejorar visualización con gráficos ASCII
-
-#### Mediano Plazo
-
-- [ ] Implementar semáforos y monitores
-- [ ] Agregar simulación de disco (scheduling de disco)
-- [ ] Soporte para multiprocesadores (SMP)
-- [ ] Deadlock detection y recovery
-
-#### Largo Plazo
-
-- [ ] Interfaz gráfica (GUI) con Qt o GTK
-- [ ] Animaciones de ejecución en tiempo real
-- [ ] Exportar métricas a CSV/JSON
-- [ ] Modo de depuración paso a paso
-
----
 
 ## 7. Conclusiones
 
